@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Superme"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:background="@color/pure_Red"
+        android:textColor="@color/white"/>
+    <Button
+        android:backgroundTint="@color/pure_Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:textSize="30sp"/>
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+    <EditText
+        android:hint="dffdfd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        />
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="@color/pure_Red"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_weight="2"
+            android:backgroundTint="@color/pure_Red"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Enter"
+            android:textSize="30sp"/>
+        <Button
+            android:layout_weight="1"
+            android:backgroundTint="@color/pure_Red"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Enter"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
