@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestFirst">
         <activity
-            android:name=".OnlineRadio"
+            android:name=".TestWebView"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,15 +18,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HtmlTest">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity
+            android:name=".OnlineRadio"
+            android:exported="true">
         </activity>
-        <activity android:name=".TestConstraint"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".HtmlTest">
+        </activity>
+        <activity android:name=".TestConstraint" />
+        <activity android:name=".MainActivity" />
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
