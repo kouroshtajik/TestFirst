@@ -18,5 +18,6 @@ public class TestWebView extends AppCompatActivity {
         web.setWebViewClient(new WebViewClient());
         web.loadUrl("https://pouyaheydari.com");
         //fghjfgggggggggggggggggggggggggh
+        //dfdfdf
     }
 }
