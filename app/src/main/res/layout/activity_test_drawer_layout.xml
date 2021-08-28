@@ -15,6 +15,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Main Layout"/>
+        <EditText
+            android:id="@+id/edtAge"
+            android:layout_width="300dp"
+            android:layout_height="150dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -28,6 +32,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Drawer Menu"/>
+
+        <Button
+            android:id="@+id/btnIntent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click" />
     </LinearLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestFirst">
         <activity
+            android:name=".TestExplicitIntent"
+            android:exported="true"
+            android:label="@string/title_activity_test_explicit_intent"
+            android:theme="@style/Theme.TestFirst.NoActionBar" />
+        <activity
             android:name=".TestDrawerLayout"
             android:exported="true">
             <intent-filter>
@@ -20,13 +25,11 @@
         </activity>
         <activity
             android:name=".TestWebView"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".OnlineRadio"
-            android:exported="true"></activity>
-        <activity android:name=".HtmlTest"></activity>
+            android:exported="true" />
+        <activity android:name=".HtmlTest" />
         <activity android:name=".TestConstraint" />
         <activity android:name=".MainActivity" />
     </application>
